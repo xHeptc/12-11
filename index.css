@@ -1,0 +1,36 @@
+.container {
+    position: absolute;
+    height: auto;
+    width: auto;
+    background-color: antiquewhite;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 5px;
+    border: 1px solid rgb(214, 201, 184);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.btn {
+    height: 40px;
+    aspect-ratio: 1;
+    position: relative;
+    margin: 5px;
+    border: 1px solid rgb(241, 200, 200);
+    background-color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    color: rgb(197, 172, 172);
+}
+
+.counter {
+    padding: 0px 8px 0px 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
+}
+
+.container .odd {
+    color: red;
+}

@@ -1,0 +1,27 @@
+.container {
+    width: auto;
+    height: auto;
+    background-color: lightgray;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+input {
+    margin: 5px;
+    width: 150px;
+    border: 1px solid gray;
+    display: block;
+}
+
+button {
+    margin: 5px;
+    width: 155px; 
+    height: 20px;
+    display: block; 
+    border: none;
+    background-color: gray;
+    color: white;
+}

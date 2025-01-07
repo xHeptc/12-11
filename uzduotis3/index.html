@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <form id="task-form">
+            <input type="text" id="task-input" name="task-name" placeholder="Task name..." required>
+            
+            <input type="radio" class="high" id="priority high" name="priority" value="high"></input>
+            <label for="priority high">A</label>
+
+            <input type="radio" class="medium" id="priority medium" name="priority" value="medium" checked></input>
+            <label for="priority medium">B</label>
+
+            <input type="radio" class="low" id="priority low" name="priority" value="low"></input>
+            <label for="priority low">C</label>
+
+            <button type="submit">Create Task</button>
+        </form>
+
+        <div class="todo-list high hidden">
+            <p class="priority high">A</p>
+            <div class="list"></div>
+        </div>
+
+        <div class="todo-list medium hidden">
+            <p class="priority medium">B</p>
+            <div class="line medium"></div>
+            <div class="list"></div>
+        </div>
+
+        <div class="todo-list low hidden">
+            <p class="priority low">C</p>
+            <div class="list"></div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
